@@ -127,4 +127,29 @@ let journeySteps = [
 // ⏳ Этап 4: Mirkwood
 // ✅ Этап 5: Lonely Mountain
 
-// ужас ужасный!!!
+let steps = journeySteps.enumerated().map { index, step in
+    let icon = index % 2 == 0 ? "✅" : "⏳"
+    return "\(icon) Этап \(index + 1): \(step)"
+}
+
+steps.forEach { print($0) }
+/*
+ ✅ Этап 1: Hobbiton
+ ⏳ Этап 2: Rivendell
+ ✅ Этап 3: Misty Mountains
+ ⏳ Этап 4: Mirkwood
+ ✅ Этап 5: Lonely Mountain
+ */
+
+// var. 2 🔥 Можно еще короче!
+
+journeySteps.enumerated().map {
+    "\($0 % 2 == 0 ? "✅" : "⏳") Этап \($0 + 1): \($1)"
+}.forEach { print($0) }
+/*
+ ✅ Этап 1: Hobbiton
+ ⏳ Этап 2: Rivendell
+ ✅ Этап 3: Misty Mountains
+ ⏳ Этап 4: Mirkwood
+ ✅ Этап 5: Lonely Mountain
+ */
