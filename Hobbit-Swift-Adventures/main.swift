@@ -35,8 +35,6 @@ let bilboAnswers = [
     "A fish"
 ]
 
-
-
 // Задача: «Эльфийские клинки» - 'Elven Blades'
 
 // 1. Создай enum Sword: String с кейсами: sting, glamdring, orcrist
