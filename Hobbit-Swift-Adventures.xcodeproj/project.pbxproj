@@ -19,13 +19,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		58E6AB702E67F74D0005E374 /* Hobbit-Swifr-Adventures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hobbit-Swifr-Adventures"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E6AB702E67F74D0005E374 /* Hobbit-Swift-Adventures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hobbit-Swift-Adventures"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		58E6AB722E67F74D0005E374 /* Hobbit-Swifr-Adventures */ = {
+		58E6AB722E67F74D0005E374 /* Hobbit-Swift-Adventures */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Hobbit-Swifr-Adventures";
+			path = "Hobbit-Swift-Adventures";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -44,7 +44,7 @@
 		58E6AB672E67F74D0005E374 = {
 			isa = PBXGroup;
 			children = (
-				58E6AB722E67F74D0005E374 /* Hobbit-Swifr-Adventures */,
+				58E6AB722E67F74D0005E374 /* Hobbit-Swift-Adventures */,
 				58E6AB712E67F74D0005E374 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,7 +52,7 @@
 		58E6AB712E67F74D0005E374 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58E6AB702E67F74D0005E374 /* Hobbit-Swifr-Adventures */,
+				58E6AB702E67F74D0005E374 /* Hobbit-Swift-Adventures */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,9 +60,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58E6AB6F2E67F74D0005E374 /* Hobbit-Swifr-Adventures */ = {
+		58E6AB6F2E67F74D0005E374 /* Hobbit-Swift-Adventures */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58E6AB772E67F74D0005E374 /* Build configuration list for PBXNativeTarget "Hobbit-Swifr-Adventures" */;
+			buildConfigurationList = 58E6AB772E67F74D0005E374 /* Build configuration list for PBXNativeTarget "Hobbit-Swift-Adventures" */;
 			buildPhases = (
 				58E6AB6C2E67F74D0005E374 /* Sources */,
 				58E6AB6D2E67F74D0005E374 /* Frameworks */,
@@ -73,13 +73,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				58E6AB722E67F74D0005E374 /* Hobbit-Swifr-Adventures */,
+				58E6AB722E67F74D0005E374 /* Hobbit-Swift-Adventures */,
 			);
-			name = "Hobbit-Swifr-Adventures";
+			name = "Hobbit-Swift-Adventures";
 			packageProductDependencies = (
 			);
 			productName = "Hobbit-Swifr-Adventures";
-			productReference = 58E6AB702E67F74D0005E374 /* Hobbit-Swifr-Adventures */;
+			productReference = 58E6AB702E67F74D0005E374 /* Hobbit-Swift-Adventures */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58E6AB6B2E67F74D0005E374 /* Build configuration list for PBXProject "Hobbit-Swifr-Adventures" */;
+			buildConfigurationList = 58E6AB6B2E67F74D0005E374 /* Build configuration list for PBXProject "Hobbit-Swift-Adventures" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58E6AB6F2E67F74D0005E374 /* Hobbit-Swifr-Adventures */,
+				58E6AB6F2E67F74D0005E374 /* Hobbit-Swift-Adventures */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +266,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58E6AB6B2E67F74D0005E374 /* Build configuration list for PBXProject "Hobbit-Swifr-Adventures" */ = {
+		58E6AB6B2E67F74D0005E374 /* Build configuration list for PBXProject "Hobbit-Swift-Adventures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58E6AB752E67F74D0005E374 /* Debug */,
@@ -275,7 +275,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58E6AB772E67F74D0005E374 /* Build configuration list for PBXNativeTarget "Hobbit-Swifr-Adventures" */ = {
+		58E6AB772E67F74D0005E374 /* Build configuration list for PBXNativeTarget "Hobbit-Swift-Adventures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58E6AB782E67F74D0005E374 /* Debug */,
