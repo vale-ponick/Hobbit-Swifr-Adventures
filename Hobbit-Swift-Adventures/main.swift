@@ -126,3 +126,5 @@ let journeySteps = [
 // ✅ Этап 3: Misty Mountains
 // ⏳ Этап 4: Mirkwood
 // ✅ Этап 5: Lonely Mountain
+
+// ужас ужасный!!!
