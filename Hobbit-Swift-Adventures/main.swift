@@ -35,6 +35,62 @@ let bilboAnswers = [
     "A fish"
 ]
 
+// Решение:
+for (index, riddle) in gollumRiddles.enumerated() {
+    let isCorrect = bilboAnswers[index] == correctAnswers[index]
+    print("Билбо ответил: '\(bilboAnswers[index])' на загадку '\(riddle)' -> Правильно? \(isCorrect)")
+}
+/*  Билбо ответил: 'A mountain' на загадку 'What has roots as nobody sees?' -> Правильно? true
+    Билбо ответил: 'Time' на загадку 'Voiceless it cries,' -> Правильно? false
+    Билбо ответил: 'A fish' на загадку 'Alive without breath' -> Правильно? true */
+
+// var. 2
+let results = zip(zip(gollumRiddles, correctAnswers), bilboAnswers).map {
+    (($0.0, $0.1), $1)
+}
+
+for ((riddle, correct), bilbo) in results {
+    let isCorrect = bilbo == correct
+    print("Билбо ответил так: '\(bilbo)' на загадку '\(riddle)' -> Правильно? \(isCorrect)")
+}
+/*  Билбо ответил так: 'A mountain' на загадку 'What has roots as nobody sees?' -> Правильно? true
+    Билбо ответил так: 'Time' на загадку 'Voiceless it cries,' -> Правильно? false
+    Билбо ответил так: 'A fish' на загадку 'Alive without breath' -> Правильно? true    */
+
+// var. 3
+for index in 0..<gollumRiddles.count {
+    let riddle = gollumRiddles[index]
+    let bilboAnswer = bilboAnswers[index]
+    let correctAnswer = correctAnswers[index]
+    let isCorrect = bilboAnswer == correctAnswer
+    
+    print("Ответ хоббита: '\(bilboAnswer)' на загадку '\(riddle)' -> Правильно? \(isCorrect)")
+}
+/*  Ответ хоббита: 'A mountain' на загадку 'What has roots as nobody sees?' -> Правильно? true
+    Ответ хоббита: 'Time' на загадку 'Voiceless it cries,' -> Правильно? false
+    Ответ хоббита: 'A fish' на загадку 'Alive without breath' -> Правильно? true    */
+
+//  вариант 4 - самый ПРОСТОЙ
+for i in 0..<gollumRiddles.count {
+    let riddle = gollumRiddles[i]
+    let bilboAnswer = bilboAnswers[i]
+    let correctAnswer = correctAnswers[i]
+    
+    // Просто сравниваем и выводим результат
+    print("Bilbo says: '\(bilboAnswer)' на загадку '\(riddle)' -> Right? \(bilboAnswer == correctAnswer)")
+}
+/*  Bilbo says: 'A mountain' на загадку 'What has roots as nobody sees?' -> Right? true
+    Bilbo says: 'Time' на загадку 'Voiceless it cries,' -> Right? false
+    Bilbo says: 'A fish' на загадку 'Alive without breath' -> Right? true   */
+
+// 📝 Что делает каждая строка:
+
+/*  for i in 0..<3 → проходим по индексам 0, 1, 2
+    gollumRiddles[i] → получаем загадку под номером i
+    bilboAnswers[i] == correctAnswers[i] → сравниваем два ответа
+    print(...) → выводим результат */
+
+
 // Задача: «Эльфийские клинки» - 'Elven Blades'
 
 // 1. Создай enum Sword: String с кейсами: sting, glamdring, orcrist
