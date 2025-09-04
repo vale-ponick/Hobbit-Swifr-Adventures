@@ -153,3 +153,8 @@ journeySteps.enumerated().map {
  ⏳ Этап 4: Mirkwood
  ✅ Этап 5: Lonely Mountain
  */
+
+
+// test - correctly?
+let hobbit = "Bilbo Baggins"
+print(hobbit) // Bilbo Baggins
