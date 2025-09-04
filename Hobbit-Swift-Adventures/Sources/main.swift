@@ -158,3 +158,5 @@ journeySteps.enumerated().map {
 // test - correctly?
 let hobbit = "Bilbo Baggins"
 print(hobbit) // Bilbo Baggins
+
+JourneyMap.printFullJourney()
