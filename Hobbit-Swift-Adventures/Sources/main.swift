@@ -160,6 +160,3 @@ let hobbit = "Bilbo Baggins"
 print(hobbit) // Bilbo Baggins
 
 JourneyMap.printFullJourney()
-
-
-
